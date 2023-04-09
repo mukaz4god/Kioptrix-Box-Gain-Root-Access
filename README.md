@@ -73,7 +73,7 @@ You could see that after running the exploit, the meterpreter session keep closi
 
 <img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230751465-137b417e-2e9d-44d9-a425-d4013bf1cd08.png">
 
-We are able to get a reverse shell and we gain "root" access to the target. The is displayed in the image below
+We are able to get a reverse shell and we gain "root" access to the target. This is displayed in the image below.
 
 <img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230751555-749911c1-2b81-40f5-a154-7bd07bd4c98b.png">
 
