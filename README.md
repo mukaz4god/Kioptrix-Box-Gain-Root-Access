@@ -1,6 +1,6 @@
 # Kioptrix Box 
 The repository demostrates how to gain root access into the kioptrix box. 
-Note:  The rule of engaagement to to acquire at least two ways to gain "root" access to the target machine. Let's get started.
+Note:  The rule of engaagement to gain "root" access to the target machine. Let's get started.
 Username: john
 Password: TwoCows2
 
@@ -21,7 +21,7 @@ Step 2: To gather information about the target, we have executed a Nmap scan usi
 <img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230749058-a9eee5fe-644c-4254-8cd7-8b79f5ea967d.png">
 <img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230749066-ca1d8334-025c-4908-94f2-5c0120e92977.png">
 
-Step 3: From the Nmap result from step above, there are 6 open ports which are :
+Step 3: From the Nmap result from step above, there are 6 open ports which are :<br/>
  Port   Protocol    Name          State   Info <br/>
  22     tcp         ssh           open    OpenSSH 2.9p2   protocol 1.99 <br/>
  80     tcp         http          open    Apache httpd 1.3.20(Unix)   Red-Hat/Linux mod_ssl/2.8.4 OpenSSL/0.9 <br/>
@@ -30,7 +30,7 @@ Step 3: From the Nmap result from step above, there are 6 open ports which are :
  443    tcp         https         open    Apache 1.3.20(Unix)   Red-Hat/Linux mod_ssl/2.8.4 OpenSSL/0.9 <br/>
  32768  tcp         status        open    1 RPC #100024 <br/>
  
-We are able to know the web server and OS the target is running on, and we need to figuare the Samba version and for the the purpose of this walkthrough, we'll be going for the low hanging fruit which are http & Samba SMB(Note: the version need to be determined).
+We are able to determine the web server name, version and OS of the target, and we need to figuare the Samba version and for the the purpose of this walkthrough, we'll be going for the low hanging fruit which is the http or Samba SMB(Note: the version need to be determined).
  
  Step 4: Run a Web Content Scanner to determine the hidden directory and this is demostrated in the below snapshot.
  <img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230749424-47162c9b-d3a8-44b0-b362-d380fd81cb06.png">
@@ -55,7 +55,7 @@ As you can see from the image above, we are able to detect the version of the sm
 
 <img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230749972-816a299d-d518-4599-ac54-873f61825b8d.png">
 
-We discover the name of the vulnerability which is tanns2open and also find a Rapid7 exploit which we are going to use to exploit that target
+We discover the name of the vulnerability which is trans2open and also find a Rapid7 exploit which we are going to use to exploit the target vulnerability.
 
 <img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230750055-337225a5-345f-4cc9-b8b7-abf319d8cc37.png">
 
