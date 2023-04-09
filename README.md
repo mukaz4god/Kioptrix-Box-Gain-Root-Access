@@ -51,8 +51,11 @@ Search for smb and look for auxiliary module that scan for smb version .
 
 <img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230749881-beb05980-c224-4237-a91d-7f8f7da619dd.png">
 
+As you can see from the image above, we are able to detect the version of the smb running on the target machine. So let search for the exploit by using google or metasploit. 
 
+<img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230749972-816a299d-d518-4599-ac54-873f61825b8d.png">
 
+We discover the name of the vulnerability which is tanns2open and also find a Rapid7 exploit which we are going to use to exploit that target
 
 
 
