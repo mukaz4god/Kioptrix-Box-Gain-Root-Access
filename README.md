@@ -57,5 +57,24 @@ As you can see from the image above, we are able to detect the version of the sm
 
 We discover the name of the vulnerability which is tanns2open and also find a Rapid7 exploit which we are going to use to exploit that target
 
+<img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230750055-337225a5-345f-4cc9-b8b7-abf319d8cc37.png">
+
+So, the next screenshot are going to demostration the steps used to exploit the Samba vulnerability in order to get "root" access to our target.
+
+<img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230750149-ac5b60a1-e2fe-4eaa-97f5-52a1ab1ea684.png">
+
+<img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230750156-688fe9b6-a4db-4839-b501-7ff163b6f574.png">
+
+<img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230750163-40e90ab8-6eb6-4c9c-b569-95c73d1786bf.png">
+
+If you caould see that after running the exploit, the meterpreter session keep closing and Dried so we need to change our payload and run the exploit again and this is show in the next screenshots
+
+<img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230750250-e4c738db-c1b3-4127-9a0e-3670a62027ff.png">
+
+
+
+
+
+
 
 
