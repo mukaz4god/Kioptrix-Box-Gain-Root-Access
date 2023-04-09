@@ -20,4 +20,18 @@ Step 2: To gather information about the target, we have executed a Nmap scan usi
 <img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230749058-a9eee5fe-644c-4254-8cd7-8b79f5ea967d.png">
 <img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230749066-ca1d8334-025c-4908-94f2-5c0120e92977.png">
 
+Step 3: From the Nmap result from step above, there are 6 open ports which are :
+ Port   Protocol    Name          State   Info <br/>
+ 22     tcp         ssh           open    OpenSSH 2.9p2   protocol 1.99 <br/>
+ 80     tcp         http          open    Apache httpd 1.3.20(Unix)   Red-Hat/Linux mod_ssl/2.8.4 OpenSSL/0.9 <br/>
+ 111    tcp         rpcbind       open    2 RPC #100000 <br/>
+ 139    tcp         netbios-ssn   open    Samba smbd workgroup: 4MYGROUP <br/>
+ 443    tcp         https         open    Apache 1.3.20(Unix)   Red-Hat/Linux mod_ssl/2.8.4 OpenSSL/0.9 <br/>
+ 32768  tcp         status        open    1 RPC #100024 <br/>
+ 
+ fot the purpose of this walkthrough, we'll be goign for the low hanging fruit which are http & Samba SMB
+ 
+ Step 4: Run a Web Content Scanner to determine the hidden directory and this is demostrated in the below snapshot.
+ <img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230749424-47162c9b-d3a8-44b0-b362-d380fd81cb06.png">
 
+ 
