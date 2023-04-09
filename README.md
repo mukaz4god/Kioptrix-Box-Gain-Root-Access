@@ -67,7 +67,23 @@ So, the next screenshot are going to demostration the steps used to exploit the 
 
 <img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230750163-40e90ab8-6eb6-4c9c-b569-95c73d1786bf.png">
 
-You could see that after running the exploit, the meterpreter session keep closing and Dried so we need to change our payload and run the exploit again and this is show in the next screenshots
+You could see that after running the exploit, the meterpreter session keep closing and Dried so we need to change our payload and run the exploit again and this is shown in the next screenshots
+
+<img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230751458-d2dee3bd-2d40-4dd6-a987-8bff361582e2.png">
+
+<img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230751465-137b417e-2e9d-44d9-a425-d4013bf1cd08.png">
+
+We are able to get a reverse shell and we gain "root" access to the target. The is displayed in the image below
+
+<img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230751555-749911c1-2b81-40f5-a154-7bd07bd4c98b.png">
+
+<img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230751564-141ae84d-614a-445d-8156-7bba5aff305a.png">
+
+
+
+
+
+
 
 
 
