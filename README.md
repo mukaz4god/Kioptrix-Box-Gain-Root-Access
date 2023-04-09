@@ -67,7 +67,7 @@ So, the next screenshot are going to demostration the steps used to exploit the 
 
 <img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230750163-40e90ab8-6eb6-4c9c-b569-95c73d1786bf.png">
 
-If you caould see that after running the exploit, the meterpreter session keep closing and Dried so we need to change our payload and run the exploit again and this is show in the next screenshots
+You could see that after running the exploit, the meterpreter session keep closing and Dried so we need to change our payload and run the exploit again and this is show in the next screenshots
 
 <img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230750250-e4c738db-c1b3-4127-9a0e-3670a62027ff.png">
 
