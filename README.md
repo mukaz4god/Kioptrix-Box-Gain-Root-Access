@@ -17,6 +17,7 @@ Step 1: Given that we know our own IP address which is 192.168.151.154, we have 
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/5961735/230748764-03667866-a449-480a-a35f-bbfc7afcf328.png">
 
 Step 2: To gather information about the target, we have executed a Nmap scan using the command "sudo nmap -sT -A -sC -p- -oX kioptrix.xml 192.168.151.155". The various arguments used in the command include "-sT" for TCP-Connect Scan, "-A" for detecting the operating system, identifying the version, and running script scanning, "-sC" for running default scripts, "-p-" to scan all ports, "-oX" to export the output in an XML file named "kioptrix.xml," and finally the IP address of the target.
+
 <img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230749058-a9eee5fe-644c-4254-8cd7-8b79f5ea967d.png">
 <img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230749066-ca1d8334-025c-4908-94f2-5c0120e92977.png">
 
@@ -29,9 +30,15 @@ Step 3: From the Nmap result from step above, there are 6 open ports which are :
  443    tcp         https         open    Apache 1.3.20(Unix)   Red-Hat/Linux mod_ssl/2.8.4 OpenSSL/0.9 <br/>
  32768  tcp         status        open    1 RPC #100024 <br/>
  
- fot the purpose of this walkthrough, we'll be goign for the low hanging fruit which are http & Samba SMB
+We are able to know the web server and OS the target is running on, and we need to figuare the Samba version and for the the purpose of this walkthrough, we'll be going for the low hanging fruit which are http & Samba SMB(Note: the version need to be determined).
  
  Step 4: Run a Web Content Scanner to determine the hidden directory and this is demostrated in the below snapshot.
  <img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230749424-47162c9b-d3a8-44b0-b362-d380fd81cb06.png">
 
- 
+We have successfully identified some hidden web pages and have also discovered that the web server information is being displayed, this information on the server needs to be secured and hardened to prevent potential attacks.
+
+<img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230749516-452522bb-8364-4c87-b094-2c9e3b2ce5fb.png">
+<img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230749527-3b8777bb-99a1-4ad6-ae76-33ae4fd0da72.png">
+
+
+
