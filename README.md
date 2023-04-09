@@ -80,6 +80,51 @@ We are able to get a reverse shell and we gain "root" access to the target. This
 <img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230751564-141ae84d-614a-445d-8156-7bba5aff305a.png">
 
 
+# Exploiting Mod_ssl/2.8.4 using Manual Exploitation
+
+<img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230753164-176bdf02-900f-471f-9496-fe38a0e9613c.png">
+
+Step 1: Search for the Vulnerability using google. We decided to go with the HeltonWenik/Openluck github repo and follow the steps as how in the below screenshots
+
+<img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230753233-21046e51-a751-4fa7-b364-fa0e2010e4b7.png">
+
+<img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230753240-f293ee76-bde9-45f3-9c53-071381968a87.png">
+
+<img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230753249-7fd0cc49-a1da-408d-9fd6-d67e5c5c2306.png">
+
+<img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230753252-bd155cef-33cd-4a30-bc56-cfcfbf62d828.png">
+
+Step 2: The OpenLuck was complied and the payloads where extracted as shown below:
+
+<img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230753655-c7c2d321-f4d6-4a0c-82dc-78521e6bce06.png">
+
+<img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230753664-17c9c3d8-6f86-4782-a203-5e8f6d97dfe3.png">
+
+<img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230753675-8ee857ce-101c-49c2-a10b-99356ee1c6c0.png">
+
+Step 3: As we already know that the target web server is running RedHat Linux with Apache server version is 1.3.20, you can use utilized either the 0x6a or 0x6b binary payloads to exploit the Mod_ssl/2.8.4 Vulnerabilities, and this is demostrated in the below screenshots.
+
+<img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230753918-5bf3ff61-e2f4-4832-9011-089d3d3fc0f8.png">
+
+<img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230753928-12c0b6d7-c028-4767-aad5-762450812603.png">
+
+Step 4: Congratulations, We are able to gain "root" access to the target machine as seen above using the manual method with HeltonWenik/Openluck open-source tools.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
