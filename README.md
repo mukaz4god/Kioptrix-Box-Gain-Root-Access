@@ -40,5 +40,19 @@ We have successfully identified some hidden web pages and have also discovered t
 <img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230749516-452522bb-8364-4c87-b094-2c9e3b2ce5fb.png">
 <img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230749527-3b8777bb-99a1-4ad6-ae76-33ae4fd0da72.png">
 
+Step 5: Let first determine the Samba version and try to exploit it. Launch Meterspolit to research the smb version.
+
+<img width="920" alt="image" src="https://user-images.githubusercontent.com/5961735/230749619-df50d2dc-4b3e-4f4b-8462-88b47f6ab1f4.png">
+
+Search for smb and look for auxiliary module that scan for smb version .
+<img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230749872-c62265b6-4a76-48cf-ac7e-e9e6196d49ee.png">
+
+<img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230749876-40537a0c-3219-4281-90fd-ed280c6811b7.png">
+
+<img width="720" alt="image" src="https://user-images.githubusercontent.com/5961735/230749881-beb05980-c224-4237-a91d-7f8f7da619dd.png">
+
+
+
+
 
 
